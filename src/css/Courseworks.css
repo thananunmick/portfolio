@@ -1,0 +1,32 @@
+.Courseworks {
+    background-color: #FEFBE7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Font-name-courseworks {
+    font-family: 'Righteous', cursive;
+    font-size: 50pt;
+    color: black;
+}
+
+.Col {
+    flex-direction: column;
+    width: 33.33%;
+}
+
+.Courseworks-box {
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 70pt;
+}
+
+.Courseworks-text {
+    /* flex-grow: 5; */
+    padding: 10%;
+    font-family: 'Raleway', sans-serif;
+    /* font-size: 30px; */
+}

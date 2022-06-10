@@ -1,0 +1,26 @@
+.box {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    background-color: white;
+    border: none;
+    height: 400px;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.text {
+    height: 40%;
+    /* margin: 10%; */
+    margin-left: 10%;
+    margin-right: 10%;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Righteous', cursive;
+    font-size: 20pt;
+}
+
+a {
+    text-decoration: none;
+}

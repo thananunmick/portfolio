@@ -1,0 +1,42 @@
+.Profile {
+    background-color: #A0BCC2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Font-name-profile {
+    font-family: 'Righteous', cursive;
+    font-size: 50pt;
+    color: white;
+}
+
+.Profile-pic-container {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 8%;
+}
+
+.Profile-pic {
+    /* flex-grow: 1; */
+    height: 500px;
+    border-radius: 50px;
+}
+
+.Profile-content {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 70pt;
+}
+
+.Profile-text {
+    /* flex-grow: 5; */
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+}
